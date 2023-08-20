@@ -1,0 +1,89 @@
+html,
+body {
+  font-family: Comic Sans MS;
+  margin: 0;
+  padding: 0;
+}
+
+/*Main e menu*/
+
+.main {
+  font-size: 25px;
+  padding: 10px;
+  padding: 20px;
+  flex-flow: column;
+  width: 80%;
+  align-self:center;
+  display: flex;;
+}
+
+.menu {
+  background-color:rgb(27, 19, 17);
+  width: 12%;
+  padding:10px;
+  font-size: 25px;
+}
+
+ul {
+  border: solid;
+  padding: 30px 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(19, 190, 96, 0.212);
+}
+
+ul a{
+  color: #fff;
+}
+
+/*Header wrapper*/
+
+.header {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(35, 78, 7, 0.932);
+  width: 1260px;
+  min-height: 550px;
+  padding: 15px 15px 10px;
+}
+
+.wrapper{
+    background-color: rgb(27, 19, 17);
+    display: flex;
+    margin: 0 auto;
+}
+
+/*Content e footer*/
+
+.content {
+    font-size: 20px;
+    width: 1200px;
+    padding: 45px;
+    background-color: rgb(252, 243, 206);
+    justify-content: center;
+  }
+
+
+  
+.footer {
+    width: 1260px;
+    min-height:100px;
+    background-color: rgba(35, 78, 7, 0.733);
+    padding: 0px 15px 0px;
+  }
+
+  
+  /*Outros*/
+
+  .whats{
+    text-align: center;
+  }
+
+  .socials {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  
+  
+  
